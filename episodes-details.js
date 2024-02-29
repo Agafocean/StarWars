@@ -45,7 +45,7 @@ export function render(data) {
     );
 
   btnmove.addEventListener('click', () => {
-    history.pushState(null, '', 'http://localhost:3000/');
+    history.pushState(null, '', 'https://starwars-dpsn.onrender.com');
     location.reload();
   });
   return container;
